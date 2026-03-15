@@ -1,112 +1,134 @@
-# VTi Shop - PHP E-commerce Website
+# 🛍️ VTi Shop – PHP E-commerce Website
 
-## Introduction
+## 📌 Introduction
 
-VTi Shop is a simple e-commerce website developed using **PHP and MySQL**.  
-The project allows users to browse products, view product details, and manage orders.
+**VTi Shop** is a simple e-commerce website built using **PHP and MySQL**.
+The system allows users to browse products, view product details, and place orders through a basic online shopping interface.
 
-This project was built to practice **web development and database integration**.
-
----
-
-## Features
-
-### User
-- View product list
-- View product details
-- Product categories
-- Banner slider
-- Shopping cart
-- Order products
-
-### Admin
-- Manage products
-- Manage categories
-- Manage banners
-- Manage orders
+This project was developed as a **practice project** to improve skills in **web development and database integration**.
 
 ---
 
-## Technologies Used
+## 🚀 Features
 
-- PHP
-- MySQL
-- HTML
-- CSS
-- Bootstrap
-- JavaScript
+### 👤 User
+
+* View product list
+* View product details
+* Browse product categories
+* Banner slider on homepage
+* Shopping cart system
+* Place orders
+
+### ⚙️ Admin
+
+* Manage products
+* Manage product categories
+* Manage banners
+* Manage customer orders
 
 ---
 
-## Database
+## 🛠️ Technologies Used
 
-Database file: fashion_mylishop.sql
-Import using **phpMyAdmin**.
+* **PHP**
+* **MySQL**
+* **HTML**
+* **CSS**
+* **Bootstrap**
+* **JavaScript**
 
 ---
 
-## Installation
+## 🗄️ Database
 
-### 1 Clone project
+Database file:
 
-
-git clone https://github.com/vti0209/VTi-Shop.git
-
-
-### 2 Import database
-
-Import file:
-
-
+```
 fashion_myilishops.sql
+```
 
-
-### 3 Configure database
-
-Edit file:
-
-
-connect.php
-
-
-Example:
-
-
-$conn = mysqli_connect("localhost","root","","fashion_myilishops");
-
-
-### 4 Run project
-
-
-http://localhost/VTi-Shop
-
+Import the database using **phpMyAdmin**.
 
 ---
 
-## Project Structure
+## ⚙️ Installation Guide
 
+### 1️⃣ Clone the repository
 
+```bash
+git clone https://github.com/vti0209/VTi-Shop.git
+```
+
+---
+
+### 2️⃣ Import the database
+
+Import the file:
+
+```
+fashion_myilishops.sql
+```
+
+using **phpMyAdmin**.
+
+---
+
+### 3️⃣ Configure database connection
+
+Edit the file:
+
+```
+connect.php
+```
+
+Example configuration:
+
+```php
+$conn = mysqli_connect("localhost","root","","fashion_myilishops");
+```
+
+---
+
+### 4️⃣ Run the project
+
+Open your browser and go to:
+
+```
+http://localhost/VTi-Shop
+```
+
+---
+
+## 📂 Project Structure
+
+```
 VTi-Shop
 │
-├── admin
-├── css
-├── js
-├── images
-├── Model
-├── user
-├── vendor
+├── admin/
+├── css/
+├── js/
+├── images/
+├── Model/
+├── user/
+├── vendor/
 ├── connect.php
 ├── index.php
-├── ...files
+├── ...other files
 └── fashion_myilishops.sql
-
-
+```
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-Ho Van Tiet  
+**Ho Van Tiet**
 Second-year student at **Passerelles Numériques Vietnam (PNV)**
-Interested in **Front-end Development and Web Development**.
 
+### Interests
+
+* Front-end Development
+* Web Development
+
+🔗 GitHub
+https://github.com/vti0209
